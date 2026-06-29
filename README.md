@@ -26,7 +26,7 @@ generated CSV file:
 
 [fr-rules-repo]: https://github.com/FedRAMP/rules
   "FedRAMP Rules Git repository (GitHub)"
-[rules-json]: ./fedramp-consolidated-rules.schema.json
+[rules-json]: ./fedramp-consolidated-rules.json
   "FedRAMP consolidated rules"
 [csv]: https://en.wikipedia.org/wiki/Comma-separated_values
   "Comma-separated values (Wikipedia)"
