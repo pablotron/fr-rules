@@ -1,7 +1,10 @@
 # fr-rules
 
-Extract rules from [`fedramp-consolidated-rules.json`][json] and write
-them to standard output as a CSV file.
+Extract rules from [FedRAMP consolidated rules][rules-json] and write them to
+standard output as a [CSV][] file.
+
+Note: `fedramp-consolidated-rules.json` in this directory is copied from
+the [FedRAMP Rules repository][fr-rules-repo].
 
 ## Usage
 
@@ -23,5 +26,7 @@ generated CSV file:
 
 [fr-rules-repo]: https://github.com/FedRAMP/rules
   "FedRAMP Rules Git repository (GitHub)"
-[json]: https://github.com/FedRAMP/rules/blob/main/schemas/fedramp-consolidated-rules.schema.json
+[rules-json]: ./fedramp-consolidated-rules.schema.json
   "FedRAMP consolidated rules"
+[csv]: https://en.wikipedia.org/wiki/Comma-separated_values
+  "Comma-separated values (Wikipedia)"
